@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Ball-Bearing']
+
+roboflow:
+  workspace: pathara-garagate
+  project: ball-bearing-94w8q
+  version: 2
+  license: MIT
+  url: https://universe.roboflow.com/pathara-garagate/ball-bearing-94w8q/dataset/2
